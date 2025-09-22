@@ -1,0 +1,83 @@
+# Arquivos do Flutter
+.dart_tool/
+.packages
+.pub-cache/
+.pub/
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+*.iml
+*.iws
+*.ipr
+.idea/
+
+# Arquivos específicos do projeto
+/.metadata
+
+# Android
+android/**/build/
+android/**/local.properties
+android/**/.gradle/
+android/**/gradle-wrapper.jar
+android/**/**.keystore
+android/**/**.jks
+android/**/**.der
+
+# iOS
+ios/**/Pods/
+ios/**/Podfile.lock
+ios/**/.symlinks/
+ios/**/Flutter/App.framework/
+ios/**/Flutter/Flutter.framework/
+ios/**/Flutter/Flutter.podspec
+ios/**/Flutter/Generated.xcconfig
+ios/**/Flutter/ephemeral/
+ios/**/Flutter/app.flx
+ios/**/Flutter/app.zip
+ios/**/Flutter/flutter_assets/
+ios/**/Flutter/flutter_export_environment.sh
+ios/**/ServiceDefinitions.json
+ios/**/Runner.app/
+ios/**/Runner.xcworkspace/xcuserdata/
+ios/**/Runner.xcodeproj/xcuserdata/
+ios/**/Runner.xcodeproj/project.xcworkspace/xcuserdata/
+
+# Web
+web/**/manifest.json
+
+# Arquivos de configuração IDE
+.vscode/
+*.swp
+*.swo
+*~
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
+
+# Arquivos de log
+*.log
+flutter.log
+
+# Arquivos temporários
+*.tmp
+*.temp
+
+# Arquivos de cache do pub
+.pub-cache/
+
+# Arquivos gerados pelo Flutter
+/generated_plugin_registrant.dart
+/flutter_export_environment.sh
+
+# Arquivos de configuração local (se houver)
+.local-*
+.env
+.env.*
+
+# Arquivos de backup
+*.backup
+*.bak
+
+# Arquivos do Git (caso precise ignorar algo específico)
+!.gitignore
